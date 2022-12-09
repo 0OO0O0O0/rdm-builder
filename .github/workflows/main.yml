@@ -25,7 +25,7 @@ env:
   RDM_REF: 2022
   VERSION: 2022.12.7
   PY_LIB_VERSION: 39
-  PYTHON_EMBEDDED_VERSION: 3.9.12
+  PYTHON_EMBEDDED_VERSION: 3.9.0
   CMAKE_VS: Visual Studio 16 2019
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -81,7 +81,7 @@ jobs:
     - name: install QT
       uses: jurplel/install-qt-action@v2
       with: 
-        version: '5.15.1'
+        version: '5.15.9'
         modules: 'qtcharts'
 
 #     - name : fix compilation
