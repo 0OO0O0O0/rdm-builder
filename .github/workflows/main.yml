@@ -81,7 +81,7 @@ jobs:
     - name: install QT
       uses: jurplel/install-qt-action@v2
       with: 
-        version: '5.15.9'
+        version: '5.15.2'
         modules: 'qtcharts'
 
 #     - name : fix compilation
