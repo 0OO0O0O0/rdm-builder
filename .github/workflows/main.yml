@@ -23,7 +23,7 @@ on:
 
 env:
   RDM_REF: 2022
-  VERSION: 2022.12.7
+  VERSION: 2022.99.0
   PY_LIB_VERSION: 39
   PYTHON_EMBEDDED_VERSION: 3.9.0
   CMAKE_VS: Visual Studio 16 2019
@@ -81,7 +81,7 @@ jobs:
     - name: install QT
       uses: jurplel/install-qt-action@v2
       with: 
-        version: '5.15.2'
+        version: '5.15.1'
         modules: 'qtcharts'
 
 #     - name : fix compilation
